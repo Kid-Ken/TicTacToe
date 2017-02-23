@@ -35,6 +35,13 @@
             android:layout_height="75dp"
             android:layout_width="120dp"/>
 
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/player1_txtview"
+            android:layout_weight="0.75"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -60,6 +67,13 @@
             android:layout_weight="0.75"
             android:layout_height="75dp"
             android:layout_width="120dp"/>
+
+        <Button
+            android:text="Restart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/restart_btn"
+            android:layout_weight="0.75"/>
     </LinearLayout>
 
     <LinearLayout
@@ -85,6 +99,13 @@
             android:layout_weight="0.75"
             android:layout_height="75dp"
             android:layout_width="120dp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/player2_txtView"
+            android:layout_weight="0.75"/>
     </LinearLayout>
 
 </LinearLayout>
